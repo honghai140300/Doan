@@ -19,7 +19,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="PassWord" class="control-label"></label>
-                <input asp-for="PassWord" class="form-control" />
+                <input asp-for="PassWord" class="form-control" type="password"/>
                 <span asp-validation-for="PassWord" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -39,7 +39,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdLoaiUser" class="control-label"></label>
-                <input asp-for="IdLoaiUser" class="form-control" />
+                <select class="custom-select-sm" asp-for="IdLoaiUser" asp-items="@(new SelectList(ViewBag.ListLoaiUser,"idLoaiUser","TenLoai"))"> </select>
                 <span asp-validation-for="IdLoaiUser" class="text-danger"></span>
             </div>
             <div class="form-group">

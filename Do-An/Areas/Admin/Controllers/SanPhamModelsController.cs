@@ -47,6 +47,7 @@ namespace Do_An.Areas.Admin.Controllers
         // GET: Admin/SanPhamModels/Create
         public IActionResult Create()
         {
+            ViewBag.LoaiSanPham = _context.LoaiSanPham.ToList();
             return View();
         }
 

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Do_An.Areas.Admin.Data;
 using Do_An.Areas.Admin.Models;
 
+
 namespace Do_An.Areas.Admin.Controllers
 {
     [Area("Admin")]
@@ -47,6 +48,7 @@ namespace Do_An.Areas.Admin.Controllers
         // GET: Admin/UserModels/Create
         public IActionResult Create()
         {
+            ViewBag.ListLoaiUser = _context.LoaiUser.ToList();
             return View();
         }
 
@@ -59,7 +61,9 @@ namespace Do_An.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 _context.Add(userModel);
+                
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
