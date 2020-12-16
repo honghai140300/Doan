@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Student\\ASP\\Do-An\\Do-An\\Do-An.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\honghai140300\\Doan\\Do-An\\Do-An.csproj": {}
   },
   "projects": {
-    "D:\\Student\\ASP\\Do-An\\Do-An\\Do-An.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\honghai140300\\Doan\\Do-An\\Do-An.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Student\\ASP\\Do-An\\Do-An\\Do-An.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\honghai140300\\Doan\\Do-An\\Do-An.csproj",
         "projectName": "Do-An",
-        "projectPath": "D:\\Student\\ASP\\Do-An\\Do-An\\Do-An.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Student\\ASP\\Do-An\\Do-An\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\honghai140300\\Doan\\Do-An\\Do-An.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\honghai140300\\Doan\\Do-An\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
