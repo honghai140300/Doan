@@ -21,6 +21,6 @@ namespace Do_An
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                });//a
     }
 }
