@@ -24,7 +24,7 @@ namespace Do_An
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //anh hai oi
+            //dong nay co ten la gì
             services.AddControllersWithViews();
             services.AddDbContext<DPContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DPContext")));
         }
